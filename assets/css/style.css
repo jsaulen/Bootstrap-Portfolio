@@ -246,9 +246,19 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
 
+    .main-section.img {
+        position: absolute;
+
+    }
+
+    div.container {
+
+        
+    }
+
     nav {
-        display: inline-block;
-        padding-left: 15px;
+        display:block;
+        align-items: center;
         margin-left: 15px;
         line-height: 18px;
         color: #999;
