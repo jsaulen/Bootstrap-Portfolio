@@ -219,10 +219,10 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
-    nav a {
+    nav {
         display: inline-block;
-        padding-left: 15px;
-        margin-left: 15px;
+        padding-left: 0px;
+        margin: 0px;
         line-height: 18px;
         color: #999;
         text-decoration: none;
@@ -230,7 +230,7 @@ input[type=submit] {
     }
 };
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
     nav a {
         display: inline-block;
@@ -256,4 +256,4 @@ input[type=submit] {
         border-left: 1px solid #efefef;
     }
     
-};
+}; */
